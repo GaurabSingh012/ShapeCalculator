@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
-        Scanner scan  = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+
         System.out.println("Enter the length of Rectangle: ");
         double length = Double.parseDouble(scan.nextLine());
 
-        ystem.out.println("Enter the width of Rectangle: ");
+        System.out.println("Enter the width of Rectangle: ");
         double width = Double.parseDouble(scan.nextLine());
-        
+
         System.out.println("Enter the radius of Circle: ");
         double radius = Double.parseDouble(scan.nextLine());
 
@@ -21,6 +22,4 @@ public class main {
         System.out.println("Area of Circle is: " + String.format("%.2f", circle.calculateArea()));
         System.out.println("Perimeter of Circle is: " + String.format("%.2f", circle.calculatePerimeter()));
     }
-    }
-
 }
